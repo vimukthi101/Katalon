@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API" time="3" tests="0" failures="1" errors="0">
+   <testsuite name="API" tests="0" failures="1" errors="0" time="3" timestamp="2018-09-01 11:11:04" hostname="Vimukthi - 192.168.1.4" id="Test Suites/API">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Vimukthi\\Katalon Studio\\API\\Reports\\API\\20180901_111100"/>
+         <property name="logFiles" value="C:\\Users\\Vimukthi\\Katalon Studio\\API\\Reports\\API\\20180901_111100\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Vimukthi - 192.168.1.4"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+      </properties>
+      <testcase name="Test Cases/GETCase" classname="Test Cases/GETCase" status="FAILED">
+         <failure type="FAILED" message="Unable to verify element property value (Root cause: Expected element property value 'saranga' is not equal with actual property value 'vimukthi')"/>
+         <system-out><![CDATA[2018-09-01 11:11:04 - [TEST_CASE][FAILED] - Test Cases/GETCase: Test Cases/GETCase FAILED because (of) Unable to verify element property value (Root cause: Expected element property value 'saranga' is not equal with actual property value 'vimukthi')
+
+2018-09-01 11:11:05 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GET issue with specified key)): Send request successfully
+
+2018-09-01 11:11:07 - [MESSAGE][PASSED] - Send request successfully
+
+2018-09-01 11:11:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-09-01 11:11:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-09-01 11:11:07 - [TEST_STEP][FAILED] - verifyElementPropertyValue: Unable to verify element property value (Root cause: Expected element property value 'saranga' is not equal with actual property value 'vimukthi')
+
+2018-09-01 11:11:07 - [MESSAGE][FAILED] - Expected element property value 'saranga' is not equal with actual property value 'vimukthi'
+
+2018-09-01 11:11:07 - [MESSAGE][FAILED] - Unable to verify element property value (Root cause: Expected element property value 'saranga' is not equal with actual property value 'vimukthi')]]></system-out>
+         <system-err><![CDATA[2018-09-01 11:11:04 - [TEST_CASE][FAILED] - Test Cases/GETCase: Test Cases/GETCase FAILED because (of) Unable to verify element property value (Root cause: Expected element property value 'saranga' is not equal with actual property value 'vimukthi')]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-01 11:11:04 - [TEST_SUITE][FAILED] - API: Test Cases/GETCase FAILED because (of) Unable to verify element property value (Root cause: Expected element property value 'saranga' is not equal with actual property value 'vimukthi')]]></system-out>
+      <system-err><![CDATA[2018-09-01 11:11:04 - [TEST_SUITE][FAILED] - API: Test Cases/GETCase FAILED because (of) Unable to verify element property value (Root cause: Expected element property value 'saranga' is not equal with actual property value 'vimukthi')]]></system-err>
+   </testsuite>
+</testsuites>

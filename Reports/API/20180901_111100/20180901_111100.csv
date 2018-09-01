@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API,,,2018-09-01 11:11:04,2018-09-01 11:11:07,3.262s,FAILED
+,,,,,,
+Test Cases/GETCase,,get test case,2018-09-01 11:11:04,2018-09-01 11:11:07,2.541s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GET issue with specified key)),,,2018-09-01 11:11:05,2018-09-01 11:11:07,1.803s,PASSED
+verifyResponseStatusCode,,,2018-09-01 11:11:07,2018-09-01 11:11:07,0.054s,PASSED
+verifyElementPropertyValue,,,2018-09-01 11:11:07,2018-09-01 11:11:07,0.142s,FAILED
